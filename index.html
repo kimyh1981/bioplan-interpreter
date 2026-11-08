@@ -89,7 +89,7 @@
     <p class="note" id="notePc">온라인 통화(Zoom·Teams·카톡) + 대면 회의 · 약 106MB(압축 파일)</p>
   </div>
   <div class="phone">
-    <a class="get" id="getPhone" href="https://github.com/kimyh1981/bioplan-interpreter/releases/latest/download/BioplanInterpreter_Phone.apk">⬇ 폰용 받기 (안드로이드)</a>
+    <a class="get" id="getPhone" href="BioplanInterpreter_Phone.apk">⬇ 폰용 받기 (안드로이드)</a>
     <p class="note" id="notePhone">대면 회의 · 폰을 테이블에 두고 · 약 26MB · 아이폰은 아직 지원하지 않습니다</p>
   </div>
 
@@ -181,6 +181,7 @@
   </div>
 </main>
 <script>
+  // 폰 APK는 이 페이지(GitHub Pages)에 함께 올린다 — 릴리스 다운로드 서버가 504로 막힌 날(2026-11-08)에도 받아지게
   // 폰으로 열면 폰 받기를 먼저
   if (/Android/i.test(navigator.userAgent)) document.body.classList.add('android');
   // 최신 버전과 크기를 보여 준다(못 읽으면 그냥 숨긴다). 릴리스 태그 'v2026.11.08-r6' → '2026.11.08 (r6)'
